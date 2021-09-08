@@ -1,16 +1,13 @@
 import React, { Component } from "react";
 
-class Contact extends Component {
-
+class WatchedTracker extends Component {
     render() {
-
         return(
             <div>
-                <p>Testing Contact</p>
+                <p>Testing Tracker</p>
             </div>
-
         )
     }
 }
 
-export default Contact;
+export default WatchedTracker;
