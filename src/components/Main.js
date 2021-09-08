@@ -4,6 +4,7 @@ import Navbar from "./Navbar.js";
 import WatchedTracker from "./WatchedTracker.js";
 import Footer from "./Footer.js";
 import SearchBar from "./SearchBar.js";
+import ContactPage from "./Contact.js"
 
 class Main extends Component {
 
@@ -15,7 +16,6 @@ class Main extends Component {
                     <h1>Testing Main</h1>
                     <Navbar />
                         <SearchBar />
-
                 </div>
 
                 <div>
@@ -24,8 +24,13 @@ class Main extends Component {
                 </div>
 
                 <div>
-                    <h1>Footer!</h1>
+                    <h1>Footer</h1>
                     <Footer />
+                </div>
+
+                <div>
+                    <h1>Contact</h1>
+                    <ContactPage />
                 </div>
             </div>
         )
