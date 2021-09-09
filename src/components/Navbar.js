@@ -2,10 +2,11 @@ import React, { Component } from "react";
 import "./views/Navbar.css";
 import {
     BrowserRouter as Router,
-    // Switch,
+    Switch,
     // Route,
     Link
   } from "react-router-dom";
+//import { NavLink } from "react-router-dom";
 
 
 class Navbar extends Component {
@@ -14,25 +15,39 @@ class Navbar extends Component {
         
         return(
           <Router>
-            <div className="nav-container">
-                <div className="nav-links">
-                    <p>Testing the Navbar</p>
-                    <div className="navbar-link"><Link to="/">HOME</Link></div>
+            <Switch>
+              <div className="nav-container">
+                  <div className="nav-links">
+                      <p>Testing the Navbar</p>
+                      <div className="navbar-link"><Link to="/">HOME</Link></div>
 
-                    <div><Link to="/WatchedTracker">WATCHED TRACKER
-                    </Link></div>
+                      <div><Link to="/WatchedTracker">WATCHED TRACKER
+                      </Link></div>
 
-                    <div><Link to="/Contact">CONTACT
-                    </Link></div>
+                      <div><Link to="/Contact">CONTACT
+                      </Link></div>
 
-                    <div><Link to="WeAppreciate">WE APPRECIATE IT!
-                    </Link></div>
-                </div>
-            </div>
+                      <div><Link to="WeAppreciate">WE APPRECIATE IT!
+                      </Link></div>
+                  </div>
+              </div>
+            </Switch>  
           </Router>
-        )
+        );
     }
 }
+
+    // <nav>
+    //   <NavLink exact activeClassName="active" to="/">
+    //     Home
+    //   </NavLink>
+    //   <NavLink activeClassName="active" to="/users">
+    //     Users
+    //   </NavLink>
+    //   <NavLink activeClassName="active" to="/contact">
+    //     Contact
+    //   </NavLink>
+    // </nav>
 
 export default Navbar;
 

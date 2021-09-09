@@ -24,14 +24,15 @@ class Main extends Component {
                 </div>
 
                 <div>
+                    <h1>Contact</h1>
+                    <ContactPage />
+                </div>
+
+                <div>
                     <h1>Footer</h1>
                     <Footer />
                 </div>
 
-                <div>
-                    <h1>Contact</h1>
-                    <ContactPage />
-                </div>
             </div>
         )
     }
