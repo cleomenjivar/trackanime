@@ -59,4 +59,32 @@ class Footer extends Component {
     }
 }
 
+// import "../styles/Footer.css";
+// import GitHubIcon from "@material-ui/icons/GitHub";
+// import LinkedInIcon from "@material-ui/icons/LinkedIn";
+
+// I have used material-ui icons you can use whatever you wish
+// "npm i @material-ui/icons" to install 
+
+// function Footer() {
+//   return (
+//     <footer>
+//    <div className="footer">
+
+//       <p>Created by Carlos Menjivar</p>
+
+//       <a href="https://github.com/cleomenjivar" className="foots">
+//         {/* <GitHubIcon />  */}
+//         Github</a>
+
+//       <a href="https://www.linkedin.com/en/" className="foots">
+//         {/* <LinkedInIcon />  */}
+//         Linkedin</a>
+
+//    </div>
+
+//     </footer>
+//   );
+// }
+
 export default Footer;
